@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Content Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Social Media Content Generator</h1>
+    <label for="platform">Select Platform:</label>
+    <select id="platform">
+        <option value="twitter">Twitter</option>
+        <option value="linkedin">LinkedIn</option>
+    </select>
+    <br>
+    <label for="prompt">Enter Your Prompt:</label>
+    <textarea id="prompt" placeholder="E.g., Generate a tweet promoting kindness..."></textarea>
+    <button onclick="generateContent()">Generate Content</button>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
