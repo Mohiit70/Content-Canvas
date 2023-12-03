@@ -14,8 +14,25 @@
         <option value="linkedin">LinkedIn</option>
     </select>
     <br>
-    <label for="prompt">Enter Your Prompt:</label>
-    <textarea id="prompt" placeholder="E.g., Generate a tweet promoting kindness..."></textarea>
+    <label for="promptType">Select Prompt Type:</label>
+    <select id="promptType" onchange="togglePrompt()">
+        <option value="predefined">Choose a predefined prompt</option>
+        <option value="custom">Enter a custom prompt</option>
+    </select>
+    <br>
+    <div id="predefinedPromptSection" style="display: block;">
+        <label for="predefinedPrompts">Select a Predefined Prompt:</label>
+        <select id="predefinedPrompts">
+            <option value="kindness">Generate a tweet promoting kindness.</option>
+            <option value="technology">Share your thoughts on the latest technology trends.</option>
+            <!-- Add more predefined prompts as needed -->
+        </select>
+    </div>
+    <div id="customPromptSection" style="display: none;">
+        <label for="customPrompt">Enter Your Custom Prompt:</label>
+        <textarea id="customPrompt" placeholder="E.g., What are your thoughts on the latest trends?"></textarea>
+    </div>
+    <br>
     <button onclick="generateContent()">Generate Content</button>
     <div id="output"></div>
     <script src="script.js"></script>
