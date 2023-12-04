@@ -27,19 +27,19 @@ Fuel Your Creativity, Ignite Your Content Ideation – Where Ideas Flourish and 
 
 ![Project Image/GIF](https://raw.githubusercontent.com/Mohiit70/Content-Canvas/main/img/Screenshot%202023-12-04%20233429.png)
 
+1. Clone the repository to your local machine.
+2. Obtain a GPT-4 API key from OpenAI.
+3. Open the `script.js` file and replace the placeholder `YOUR_GPT_API_KEY` with your actual GPT-4 API key.
 
-### Installation
+## Running the Application
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project folder: `cd Content-Canvas`
-3. Open `index.html` in your preferred web browser.
+1. Open `index.html` in a web browser.
+2. Select the desired platform, prompt type, and prompt.
+3. Click the "Generate Content" button to see the GPT-4 generated content.
 
-## Usage
+## Important Note
 
-1. Input your preferences into the ideation form.
-2. Click "Generate Ideas" to receive AI-driven suggestions.
-3. Explore, refine, and collaborate on the generated ideas.
-
+Ensure that you keep your GPT-4 API key secure. Do not expose it publicly or share it with unauthorized users.
 
 ## Contributing
 
