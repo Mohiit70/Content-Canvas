@@ -36,6 +36,9 @@ Fuel Your Creativity, Ignite Your Content Ideation – Where Ideas Flourish and 
 1. Open `index.html` in a web browser.
 2. Select the desired platform, prompt type, and prompt.
 3. Click the "Generate Content" button to see the GPT-4 generated content.
+4.  Install Dependencies npm install
+   `node server.js`
+   The server will run on `http://localhost:3000` by default.
 
 ## Important Note
 
