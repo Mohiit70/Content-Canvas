@@ -1,6 +1,14 @@
-![Project Image/GIF](https://raw.githubusercontent.com/Mohiit70/IdeaVista/main/img/IdeaVista.png)
+<div align="center">
 
-IdeaVista is an AI-powered ideation platform designed to ignite creativity and streamline the idea generation process. This innovative tool empowers content creators to effortlessly explore and develop fresh ideas across various themes and industries.
+<img src="https://raw.githubusercontent.com/Mohiit70/Content-Canvas/main/img/Content.png" width=300 height=300>
+
+<h1>Web Application for effortlessly crafting social media posts.</h1>
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
+</div>
+
+Fuel Your Creativity, Ignite Your Content Ideation – Where Ideas Flourish and Content!
 
 ## Features
 
@@ -19,7 +27,7 @@ IdeaVista is an AI-powered ideation platform designed to ignite creativity and s
 ### Installation
 
 1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project folder: `cd IdeaVista`
+2. Navigate to the project folder: `cd Content-Canvas`
 3. Open `index.html` in your preferred web browser.
 
 ## Usage
@@ -42,5 +50,5 @@ If you find IdeaVista useful or have any questions, feel free to reach out. Your
 This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
 
 
-**Happy ideating with IdeaVista! 🚀**
+**Happy ideating with Content Canvas! 🚀**
 
