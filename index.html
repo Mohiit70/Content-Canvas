@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media Content Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Social Media Content Generator</h1>
+    <h1>Idea Vista</h1>
     <label for="platform">Select Platform:</label>
     <select id="platform">
         <option value="twitter">Twitter</option>
@@ -23,18 +25,21 @@
     <div id="predefinedPromptSection" style="display: block;">
         <label for="predefinedPrompts">Select a Predefined Prompt:</label>
         <select id="predefinedPrompts">
-            <option value="kindness">Generate a tweet promoting kindness.</option>
-            <option value="technology">Share your thoughts on the latest technology trends.</option>
-            <!-- Add more predefined prompts as needed -->
+            <option value="kindness">Suggest some topics for my next LinkedIn post about tech. </option>
+            <option value="technology">Generate ideas for a LinkedIn post related to Tech.</option>
+
+
         </select>
     </div>
     <div id="customPromptSection" style="display: none;">
         <label for="customPrompt">Enter Your Custom Prompt:</label>
-        <textarea id="customPrompt" placeholder="E.g., What are your thoughts on the latest trends?"></textarea>
+        <textarea id="customPrompt" placeholder="E.g., Craft a hook for a LinkedIn post about [topic].
+        "></textarea>
     </div>
     <br>
     <button onclick="generateContent()">Generate Content</button>
     <div id="output"></div>
     <script src="script.js"></script>
 </body>
+
 </html>
