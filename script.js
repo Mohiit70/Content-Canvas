@@ -1,18 +1,4 @@
-function togglePrompt() {
-    const predefinedPromptSection = document.getElementById('predefinedPromptSection');
-    const customPromptSection = document.getElementById('customPromptSection');
-    const promptType = document.getElementById('promptType').value;
-
-    if (promptType === 'predefined') {
-        predefinedPromptSection.style.display = 'block';
-        customPromptSection.style.display = 'none';
-    } else {
-        predefinedPromptSection.style.display = 'none';
-        customPromptSection.style.display = 'block';
-    }
-}
-
-function generateContent() {
+async function generateContent() {
     const platform = document.getElementById('platform').value;
     const promptType = document.getElementById('promptType').value;
     let prompt;
@@ -21,8 +7,31 @@ function generateContent() {
         prompt = document.getElementById('predefinedPrompts').value;
     } else {
         prompt = document.getElementById('customPrompt').value;
-    
-    const generatedContent = 'Your generated content will be here.';
+    }
 
-    document.getElementById('output').innerHTML = generatedContent;
+    const requestBody = {
+        platform,
+        prompt
+    };
+
+    try {
+        const response = await fetch('http://localhost:3000/generate-content', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestBody)
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const generatedContent = data.generatedContent;
+
+        document.getElementById('output').innerHTML = generatedContent;
+    } catch (error) {
+        console.error('Error:', error);
+    }
 }
