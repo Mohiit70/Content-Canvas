@@ -10,6 +10,7 @@
 
 Fuel Your Creativity, Ignite Your Content Ideation – Where Ideas Flourish and Content!
 
+
 ## Features
 
 - **AI-Driven Ideation:** Leverage advanced algorithms for instant, tailored idea generation.
@@ -23,6 +24,9 @@ Fuel Your Creativity, Ignite Your Content Ideation – Where Ideas Flourish and 
 - **Collaborative Ideation:** Share ideas with team members and collaborate on creative projects.
 
 ## Getting Started
+
+![Project Image/GIF](https://raw.githubusercontent.com/Mohiit70/Content-Canvas/main/img/Screenshot%202023-12-04%20233429.png)
+
 
 ### Installation
 
@@ -47,7 +51,7 @@ If you find IdeaVista useful or have any questions, feel free to reach out. Your
 
 ## License
 
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [LICENSE.md](LICENSE.md) file for details.
 
 
 **Happy ideating with Content Canvas! 🚀**
